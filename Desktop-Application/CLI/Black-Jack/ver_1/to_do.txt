@@ -1,0 +1,26 @@
+double down
+splitting pairs
+check amount calc
+
+
+insurance and black jack
+player black jack 
+    dealer black jack   ->  draw
+    dealer no black jack -> player natural win
+
+
+player no black jack
+    insure
+        dealer black jack   -> player loses original bet but wins insurance bet
+        dealer no black jack    ->  player loses insure bet but continues 
+    no insure
+        dealer black jack   ->  player loses original bet 
+        dealer no black jack    ->  continues
+
+
+casino wallet
+wallet to up
+wallet balance check
+insure bet (check for wallet balance)
+table alter
+print statements and comments (for typo errors) check(after everything finished)

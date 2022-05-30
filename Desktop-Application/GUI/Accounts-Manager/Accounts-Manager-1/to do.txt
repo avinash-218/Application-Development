@@ -1,0 +1,45 @@
+javac -cp com.lowagie.text-2.1.7.jar; MyFrameTest.java
+java -cp .;mysql-connector-java-5.1.13-bin.jar;com.lowagie.text-2.1.7.jar; MyFrameTest
+----------------------------------------------------------------------------------------------------------
+Manifest.txt
+Main-Class: MyFrameTest
+----------------------------------------------------------------------------------------------------------
+jar cfm AccountsManager.jar Manifest.txt *.class mysql-connector-java-5.1.13-bin.jar
+----------------------------------------------------------------------------------------------------------
+Link : https://www.youtube.com/watch?v=I-kJx_ZFwyI
+
+1) Create a folder "Application"
+2) create a bin inside "Application"
+3) copy jar file in "bin"
+4) create "lib" folder in "bin"
+5) copy all class files and sqlconnecter to "lib"
+6) launch4j
+7) output file in "Application"
+8) jar-locate jar file in "bin"
+9) icon-locate icon file in .ico format
+10) classpath tab :
+	* main class - jar file in "bin"
+	* add classpath - bin/lib/mysqlconnecter's
+11) JRE :
+	* bundled JRE path : bin/jre
+	* c-jdk-"jre" to "bin"
+12) Build :
+	* build in "Application"
+----------------------------------------------------------------------------------------------------------
+create database accounts_manager;
+use accounts_manager;
+create table Transactions(Accounts varchar(25),DateTime TIMESTAMP,Status varchar(30),Comments varchar(50),Balance double(12,2));
+create table accounts(Name varchar(35),Balance double(12,2));
+----------------------------------------------------------------------------------------------------------
+Stable Version :
+----------------------------------------------------------------------------------------------------------
+		ver_30
+----------------------------------------------------------------------------------------------------------
+Bugs:
+----------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------
+Optional
+----------------------------------------------------------------------------------------------------------
+1) try oracle
+2) many users with password

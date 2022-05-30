@@ -1,0 +1,34 @@
+5,5 split or dd
+split change hand is not working
+you lose you win in chec-with-dealer
+
+
+
+
+if player win,check for DD or NDD in status.if DD and win -deposit amount for DD and win.if dd and lose PRINT message for DD and lose.if NDD and win or lose print as usual
+
+
+stop at tot 21 everywhere
+
+
+split(card[0]==card[1])
+
+double down(sum is 9 10 11)
+
+hit or stay
+
+insurance and black jack
+player black jack 
+    dealer black jack   ->  draw-end	#
+    dealer no black jack -> player natural win		#
+
+
+player no black jack
+    insure
+        dealer black jack   -> player loses original bet but wins insurance bet		#
+        dealer no black jack    ->  player loses insure bet but continues 		#
+    no insure
+        dealer black jack   ->  player loses original bet 				#
+        dealer no black jack    ->  continues						#
+
+

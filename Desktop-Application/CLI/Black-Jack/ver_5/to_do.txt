@@ -1,0 +1,2 @@
+dealer A doesn't count as 11 to overcome 17 instead it is being counted as 1
+print cards-use centre fn for alignment
